@@ -1,0 +1,3 @@
+This is a ray tracing project based on the tutorial, Ray Tracing in One Weekend by Peter Shirley: https://raytracing.github.io/books/RayTracingInOneWeekend.html.
+
+My version is structural different from the project. The tutorial has much of the source code in header files. I took the source code from the header files and put them into multiple source files. I moved some functions to class functions and moved some class functions to functions. I think moving these made the project more consistent. Also, I've made some performance improvements such as removing the recursion from the rayColor function, making it into a loop. Also I added some OpenMP directives to the main loop.

@@ -1,0 +1,6 @@
+# ignore the following directories
+x64/
+Debug/
+
+# ignore these files
+*.vcxproj.*
